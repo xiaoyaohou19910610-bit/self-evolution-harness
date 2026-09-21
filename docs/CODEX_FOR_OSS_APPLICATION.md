@@ -4,7 +4,7 @@
 
 Self-Evolution Harness
 
-Repository URL: `https://github.com/OWNER/self-evolution-harness`
+Repository URL: `https://github.com/xiaoyaohou19910610-bit/self-evolution-harness`
 
 ## Summary
 
@@ -29,11 +29,11 @@ validate that project templates remain portable and free of private data.
 
 ## Current Status
 
-- Public-ready initial implementation
+- Public repository with a tagged release
 - MIT licensed
 - Python 3.11+ with no runtime dependencies
-- Unit tests and GitHub Actions
+- Unit tests and GitHub Actions on Python 3.11 and 3.14
 - Human approval boundary for active rule promotion
+- Reproducible existing-project and empty-project case study
 
-Replace `OWNER` after the public repository is created, then submit this text
-through the official Codex for Open Source form.
+Submit this text through the official Codex for Open Source form.

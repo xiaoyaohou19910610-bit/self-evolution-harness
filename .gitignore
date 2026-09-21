@@ -4,5 +4,6 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 tests/.tmp/
+.case-study/
 .DS_Store
 Thumbs.db

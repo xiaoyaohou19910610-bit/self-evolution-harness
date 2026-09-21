@@ -20,7 +20,7 @@ Lessons remain proposals until a human reviews and promotes them.
 Requires Python 3.11 or newer.
 
 ```powershell
-git clone https://github.com/OWNER/self-evolution-harness.git
+git clone https://github.com/xiaoyaohou19910610-bit/self-evolution-harness.git
 cd self-evolution-harness
 python tools/bootstrap.py --project C:\path\to\your-project
 python tools/check_rule_health.py
@@ -61,7 +61,9 @@ and prepares a proposal. A human decides whether that proposal becomes an
 active project rule, Skill change, or shared template.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the verification contract and
-[SECURITY.md](SECURITY.md) for the trust boundary.
+[SECURITY.md](SECURITY.md) for the trust boundary. A reproducible old-project
+and empty-project walkthrough is available in
+[docs/CASE_STUDY.md](docs/CASE_STUDY.md).
 
 ## 中文说明
 
