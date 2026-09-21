@@ -65,6 +65,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the verification contract and
 and empty-project walkthrough is available in
 [docs/CASE_STUDY.md](docs/CASE_STUDY.md).
 
+Project ownership and decision boundaries are documented in
+[MAINTAINERS.md](MAINTAINERS.md) and [GOVERNANCE.md](GOVERNANCE.md).
+
 ## 中文说明
 
 这是一个可审查的 Agent 自我进化脚手架。它把项目状态、纠错记录、规则提案和

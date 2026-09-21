@@ -1,39 +1,59 @@
 # Codex for Open Source Application Draft
 
-## Project
+Official form: <https://openai.com/form/codex-for-oss/>
 
-Self-Evolution Harness
+## Public Fields
 
-Repository URL: `https://github.com/xiaoyaohou19910610-bit/self-evolution-harness`
+### GitHub Username
 
-## Summary
+`xiaoyaohou19910610-bit`
 
-Self-Evolution Harness is a dependency-free, file-first toolkit for coding
-agents that need durable project state and a controlled way to learn from
-verified mistakes. It includes reusable Skills, memory templates, an
-idempotent project bootstrapper, a static instruction-health checker, routing
-regression cases, tests, and CI.
+### Repository URL
 
-## Problem It Solves
+`https://github.com/xiaoyaohou19910610-bit/self-evolution-harness`
 
-Long-running agent projects often lose state between tasks or accumulate broad,
-duplicated, and conflicting instructions. This project separates evidence,
-explanatory memory, and active behavior. Feedback can produce a reviewable
-proposal, but it cannot silently rewrite active rules.
+### Role
 
-## How Codex Helps
+Primary maintainer.
 
-Codex is used to maintain the Python tooling, add regression cases, review rule
-changes, test cross-platform bootstrap behavior, improve documentation, and
-validate that project templates remain portable and free of private data.
+### Why This Repository Qualifies
 
-## Current Status
+Self-Evolution Harness is an MIT-licensed, dependency-free toolkit for making
+coding-agent projects durable and auditable. It separates evidence,
+explanatory memory, and active instructions; bootstraps projects without
+overwriting files; and regression-tests rule routing. The new public v0.1.0 has
+1 star, 4 public roadmap issues, passing CI on Python 3.11/3.14, and a
+reproducible adoption case. It addresses a growing ecosystem need: preventing
+agent memory and instruction drift without automatic rule mutation.
 
-- Public repository with a tagged release
-- MIT licensed
-- Python 3.11+ with no runtime dependencies
-- Unit tests and GitHub Actions on Python 3.11 and 3.14
-- Human approval boundary for active rule promotion
-- Reproducible existing-project and empty-project case study
+### Interest
 
-Submit this text through the official Codex for Open Source form.
+API credits for the project.
+
+### API Credit Use
+
+Use API credits to evaluate fixed routing cases across Codex models, automate
+pull-request review and issue triage, generate release evidence, and test
+proposed rule changes against regressions before human promotion. Results will
+be recorded in the public repository; publishing, permission changes, and
+active instruction promotion will remain human-approved.
+
+### Anything Else
+
+The repository was open-sourced from a private working harness on 2026-09-21.
+I am not overstating adoption: the public project is early, currently at 1 star
+and no package downloads. Evidence today is v0.1.0, passing CI, idempotency
+tests, a verified adoption case, four roadmap issues, and active
+primary-maintainer ownership. I am applying because the problem is broadly
+relevant to teams using coding agents, and credits would support public
+evaluations and maintenance automation.
+
+## Private Fields To Enter In The Form
+
+- Legal first name
+- Legal last name
+- Email associated with the ChatGPT account
+- OpenAI Organization ID from
+  <https://platform.openai.com/settings/organization/general>
+
+Do not commit those values to this repository.

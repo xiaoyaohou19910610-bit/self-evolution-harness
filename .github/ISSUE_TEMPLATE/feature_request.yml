@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a scoped, verifiable improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What project behavior or maintenance task needs improvement?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: What fixed case or observable result would prove it works?
+    validations:
+      required: true
