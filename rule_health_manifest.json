@@ -1,0 +1,21 @@
+{
+  "global_agents": "templates/AGENTS.global.md",
+  "project_agents": ["AGENTS.md"],
+  "specialized_global_markers": [
+    "private project history",
+    "personal access token"
+  ],
+  "skills": [
+    {
+      "name": "self-evolution-project",
+      "path": "skills/self-evolution-project/SKILL.md",
+      "require_scope": true
+    },
+    {
+      "name": "self-evolution-improver",
+      "path": "skills/self-evolution-improver/SKILL.md",
+      "require_scope": true
+    }
+  ],
+  "routing_cases": "examples/routing_cases.json"
+}

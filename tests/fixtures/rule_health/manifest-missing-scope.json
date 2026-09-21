@@ -1,0 +1,7 @@
+{
+  "global_agents": "global.md",
+  "project_agents": ["project.md"],
+  "skills": [{"name": "sample", "path": "skill-missing-scope.md", "require_scope": true}],
+  "specialized_global_markers": ["WeChat-only"],
+  "routing_cases": "cases-clean.json"
+}

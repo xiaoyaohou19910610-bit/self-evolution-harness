@@ -1,0 +1,8 @@
+[
+  {
+    "id": "R1",
+    "request": "Route me.",
+    "expected_skills": ["sample", "missing"],
+    "must_not_load": ["sample"]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "one-off-bug-fix",
+    "request": "Fix this isolated Python parsing bug and run its focused test.",
+    "expected_skills": [],
+    "must_not_load": ["self-evolution-project", "self-evolution-improver"]
+  },
+  {
+    "id": "persistent-project",
+    "request": "Set up durable project state so a new task can continue from files.",
+    "expected_skills": ["self-evolution-project"],
+    "must_not_load": ["self-evolution-improver"]
+  },
+  {
+    "id": "repeated-agent-error",
+    "request": "This agent has repeated the same verified mistake; prepare a reusable rule proposal and regression case.",
+    "expected_skills": ["self-evolution-improver"],
+    "must_not_load": []
+  },
+  {
+    "id": "screenshot-explanation",
+    "request": "Explain what this single screenshot means.",
+    "expected_skills": [],
+    "must_not_load": ["self-evolution-project", "self-evolution-improver"]
+  }
+]

@@ -1,0 +1,12 @@
+[project]
+name = "self-evolution-harness"
+version = "0.1.0"
+description = "An auditable, file-first self-evolution harness for coding agents"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
