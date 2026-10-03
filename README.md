@@ -10,6 +10,7 @@ It provides:
 - project memory templates;
 - a rule-health checker with fixed routing cases;
 - an idempotent bootstrap command;
+- project guidance for stable IDs, resumable checkpoints, and evidence-based workflow changes;
 - tests and CI with no runtime dependencies.
 
 The harness does not let feedback rewrite active instructions automatically.
