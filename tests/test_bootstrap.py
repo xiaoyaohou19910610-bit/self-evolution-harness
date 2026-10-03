@@ -18,6 +18,11 @@ class BootstrapTests(unittest.TestCase):
 
             first = bootstrap(project, skills)
             self.assertTrue((project / "AGENTS.md").is_file())
+            agents_content = (project / "AGENTS.md").read_text(encoding="utf-8")
+            self.assertIn("## Long-Running Work", agents_content)
+            self.assertIn("`run_id`", agents_content)
+            self.assertIn("read-back-verified checkpoints", agents_content)
+            self.assertIn("preserve interrupted attempts", agents_content)
             self.assertTrue((project / "memory" / "progress.md").is_file())
             self.assertTrue((skills / "self-evolution-project" / "SKILL.md").is_file())
             self.assertEqual(8, len(first.created))
